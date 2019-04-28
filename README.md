@@ -4,7 +4,7 @@
 [![Build](https://img.shields.io/badge/Codename_-_Ardzz-blue.svg?maxAge=259200)]()
 [![HitCount](http://hits.dwyl.io/ardzz/dunia21.svg)](http://hits.dwyl.io/ardzz/dunia21)
 ### Spotify Converter
-Spotify converter versi 2.5 sudah disempurnakan dan berbasis OOP<br>
+Spotify converter versi 2.5 sudah disempurnakan dan menggunakan OOP (***Object Oriented Programming***)<br>
 ## Persyaratan :
 * PHP 7.x
 * Library cURL (php-curl)
