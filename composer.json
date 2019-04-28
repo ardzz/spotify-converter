@@ -1,0 +1,19 @@
+{
+    "name": "root/spotify",
+    "description": "Spotify Converter !!!",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Ardhana",
+            "email": "zeebploit212@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Http\\": "App/",
+            "UI\\": "App/",
+            "Service\\": "App/"
+        }
+    }
+}
