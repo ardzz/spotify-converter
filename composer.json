@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "php": "*",
+        "ardzz/spotify-converter": "dev-master",
     },
     "autoload":{
         "psr-4":{
