@@ -34,7 +34,8 @@ class Spotify extends Youtube{
 			"Upgrade-Insecure-Requests: 1",
         ];
         $GET->execute();
-        return explode("=", $GET->getCookies()[0])[1];
+        //return explode("=", $GET->getCookies()[0])[1];
+	return (isset($output[1]) ? $output[1] : die("       [!] Failed to get CSRF!\n\n       [*] Tolong gunakan IP Indonesia\n       [*] Jika masih error silahkan cek koneksi internet Anda\n"));
     }
 
     function Login(){
