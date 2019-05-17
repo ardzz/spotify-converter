@@ -1,7 +1,7 @@
 {
     "name": "awklg/spotify",
     "description": "Spotify Converter !!!",
-    "license": "GPL",
+    "license": "MIT",
     "authors": [
         {
             "name": "Ardhana",
