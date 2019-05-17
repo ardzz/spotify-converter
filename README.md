@@ -11,6 +11,10 @@ Spotify converter versi 2.5 sudah disempurnakan dan menggunakan OOP (***Object O
 * OS Linux only, *karena saya belum mencobanya di OS **Windows***
 ## Penggunaan :
 * *Clone* repositori ini
+* **Dari composer**
+```bash
+composer require ardzz/spotify-converter:dev-master; cd vendor/ardzz/spotify-converter
+```
 * Buka file `Spotify-convert.php` lalu isi email dan password
 ```php
 ...
