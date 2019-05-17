@@ -8,15 +8,6 @@
             "email": "ardzz@indoxploit.or.id"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/ardzz/spotify-converter"
-        }
-    ],
-    "require": {
-        "ardzz/spotify-converter": "dev-master",
-    },
     "autoload":{
         "psr-4":{
             "Http\\": "App/",
