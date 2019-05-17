@@ -8,7 +8,9 @@
             "email": "ardzz@indoxploit.or.id"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">5.0.0",
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload":{
