@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "php": ">5.0.0",
+        "php": "*",
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
