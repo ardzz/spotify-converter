@@ -35,7 +35,7 @@ class Spotify extends Youtube{
         ];
         $GET->execute();
         $output = explode("=", $GET->getCookies()[0])[1];
-	return (isset($output[1]) ? $output[1] : die("       [!] Failed to get CSRF!\n\n       [*] Tolong gunakan IP Indonesia\n       [*] Jika masih error silahkan cek koneksi internet Anda\n"));
+	return (isset($output) ? $output : die("       [!] Failed to get CSRF!\n\n       [*] Tolong gunakan IP Indonesia\n       [*] Jika masih error silahkan cek koneksi internet Anda\n"));
     }
 
     function Login(){
